@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div{
+width: 100%;
+height: 100vh;
+background-color: rgb(201, 201, 126);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.center_div{
+  width: 40%;
+  height: 60vh;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+  background: transparent;
+  background-color: rgb(83, 221, 221);
+  padding: 6px 0 2px 0;
+  margin: 2px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+input{
+  text-align: center;
+  height: 40px;
+  margin-top: 25px ;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+}
+
+button{
+  text-align: center;
+  height: 30px;
+  
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 8%;
+  margin-left: 5px;
+  color: black;
+  background-color:  rgb(83, 221, 221) ;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.2);
+
+}
+
+button:hover{
+  background-color: rgb(82, 245, 136) ;
+}
+
+ol{
+  margin-top: 30px;
+ 
+}
+
+ol li{
+/* border: 1px solid black; */
+border-radius: 5px;
+ margin-left: 100px;
+ width: 180px;
+text-align: center;
+font-size: 22px;
+font-weight: 500;
+min-height: 40px;
+display: flex;
+align-items: center;
+box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+background: transparent;
+
+}
+
+.btn{
+  text-align: center;
+  height: 30px;
+  
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 40px;
+  margin-left: 20px;
+  color: black;
+  background-color:  rgb(83, 221, 221) ;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
